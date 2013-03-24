@@ -58,7 +58,7 @@ public class Person {
 		this.id = personGetInfo.getString(Constants.PERSON_ID);
 		this.name = personGetInfo.getString(Constants.PERSON_NAME);
 		this.tag = personGetInfo.getString(Constants.TAG);
-
+		this.isReal = true;
 		JSONArray groupinfo = (JSONArray) personGetInfo.get("group");
 		Iterator<JSONObject> it = groupinfo.iterator();
 		while (it.hasNext()) {

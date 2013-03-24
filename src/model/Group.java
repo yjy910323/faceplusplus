@@ -132,6 +132,7 @@ public class Group {
 					type);
 		}
 		this.name = groupGetInfo.getString(Constants.GROUP_NAME);
+		
 		this.tag = groupGetInfo.getString(Constants.TAG);
 	}
 
